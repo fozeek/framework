@@ -12,12 +12,10 @@
     "require": {
         "php": ">=5.4.0"
     },
-    "require-dev": {
-    },
     "autoload": {
         "psr-0": {
             "Fk": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
