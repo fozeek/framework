@@ -1,9 +1,9 @@
 <?php
 
-namespace FkFramework\Route;
+namespace Fk\Route;
 
-use FkFramework\Uri\Uri;
-use FkFramework\Config\Config;
+use Fk\Uri\Uri;
+use Fk\Config\Config;
 
 class Router {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\ORM;
+namespace Fk\ORM;
 
-use FkFramework\ORM\Shema\Type\TypeManager;
+use Fk\ORM\Shema\Type\TypeManager;
 
 class TableManager {
 	
@@ -28,7 +28,7 @@ class TableManager {
 			$namespace = 'App\\Model\\Table\\';
 			$class = $namespace.ucfirst($tableName);
 			if(!class_exists($class)) {
-				$class = 'FkFramework\ORM\Table';
+				$class = 'Fk\ORM\Table';
 			}
 			$this->tables[$tableName] = new $class($tableName, $this);
 		}

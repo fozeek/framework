@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "fk": "src/"
+            "Fk": "src/"
         }
     },
     "minimum-stability": "dev"

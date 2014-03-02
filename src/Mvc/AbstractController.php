@@ -1,10 +1,10 @@
 <?php
 
-namespace FkFramework\Mvc;
+namespace Fk\Mvc;
 
-use FkFramework\Manager\AbstractManager;
-use FkFramework\Mvc\Application;
-use FkFramework\Config\Config;
+use Fk\Manager\AbstractManager;
+use Fk\Mvc\Application;
+use Fk\Config\Config;
 
 abstract class AbstractController extends AbstractManager {
 

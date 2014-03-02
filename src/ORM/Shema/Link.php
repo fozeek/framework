@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\ORM\Shema;
+namespace Fk\ORM\Shema;
 
 class Link {
 

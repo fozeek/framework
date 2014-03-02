@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Cache;
+namespace Fk\Cache;
 
 class Cache {
 

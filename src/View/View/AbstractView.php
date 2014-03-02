@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\View\View;
+namespace Fk\View\View;
 
 abstract class AbstractView {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\View\Helper;
+namespace Fk\View\Helper;
 
-use FkFramework\Manager\AbstractManager;
+use Fk\Manager\AbstractManager;
 
 class HelperManager extends AbstractManager {
 

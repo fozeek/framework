@@ -1,18 +1,18 @@
 <?php
 
-namespace FkFramework\ORM;
+namespace Fk\ORM;
 
-use FkFramework\Db\QueryBuilder;
-use FkFramework\ORM\TableManager;
-use FkFramework\Util\Collection;
+use Fk\Db\QueryBuilder;
+use Fk\ORM\TableManager;
+use Fk\Util\Collection;
 
 class Table {
 
 	protected $name;			//	string
 	protected $alias;			//	string
-	protected $tableManager;	//	FkFramework\ORM\TableManager
-	protected $validator;		//	FkFramework\Validation\Validator
-	protected $shema;			//	FkFramework\ORM\Shema\Shema
+	protected $tableManager;	//	Fk\ORM\TableManager
+	protected $validator;		//	Fk\Validation\Validator
+	protected $shema;			//	Fk\ORM\Shema\Shema
 
 	/*
 		Constructeur

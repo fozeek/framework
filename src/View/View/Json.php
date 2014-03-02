@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\View\Type;
+namespace Fk\View\Type;
 
-use FkFramework\View\TypeAbstract;
+use Fk\View\TypeAbstract;
 
 class Json extends TypeAbstract {
 

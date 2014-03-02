@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Module;
+namespace Fk\Module;
 
 interface ModuleInterface {
 

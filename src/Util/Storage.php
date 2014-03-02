@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Util;
+namespace Fk\Util;
 
 class Storage {
 

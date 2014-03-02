@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\ORM\Shema\Type;
+namespace Fk\ORM\Shema\Type;
 
 class DateTime extends Type {
 	

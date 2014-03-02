@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\View\Helper;
+namespace Fk\View\Helper;
 
 abstract class AbstractHelper {
 	

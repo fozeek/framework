@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Error;
+namespace Fk\Error;
 
 /*
  A FAIRE : mettre l'id du message d'erreur lors de l'instanciation

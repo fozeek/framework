@@ -1,9 +1,9 @@
 <?php
 
-namespace FkFramework\ORM;
+namespace Fk\ORM;
 
-use FkFramework\ORM\TableManager;
-use FkFramework\ORM\Shema\Type\TypeManager;
+use Fk\ORM\TableManager;
+use Fk\ORM\Shema\Type\TypeManager;
 
 class EntityManager {
     
@@ -19,7 +19,7 @@ class EntityManager {
             $namespace = 'App\Model\Entity\\';
             $class = $namespace.ucfirst($entityName);
             if(!class_exists($class)) {
-                $class = 'FkFramework\ORM\Entity';
+                $class = 'Fk\ORM\Entity';
             }
             $this->entities[$entityName] = new $class($entityName, $this->tableManager);
         }

@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Http;
+namespace Fk\Http;
 
 class Cookie {
 	

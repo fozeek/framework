@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Db;
+namespace Fk\Db;
 
 use PDO;
 use PDOException;

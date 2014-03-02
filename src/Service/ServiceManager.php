@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Service;
+namespace Fk\Service;
 
 class ServiceManager {
 	

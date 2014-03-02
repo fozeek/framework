@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Session;
+namespace Fk\Session;
 
 /*
   Class :		SessionComponent

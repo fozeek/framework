@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Http\Response;
+namespace Fk\Http\Response;
 
 class Response {
 

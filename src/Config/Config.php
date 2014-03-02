@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\Config;
+namespace Fk\Config;
 
-use FkFramework\Util\Storage;
+use Fk\Util\Storage;
 
 class Config {
 

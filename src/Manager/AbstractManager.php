@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\Manager;
+namespace Fk\Manager;
 
-use FkFramework\Util\ArrayCollection;
+use Fk\Util\ArrayCollection;
 
 abstract class AbstractManager extends ArrayCollection {
 

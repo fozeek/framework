@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\Http;
+namespace Fk\Http;
 
-use FkFramework\Manager\AbstractManager;
+use Fk\Manager\AbstractManager;
 
 class CookieManager extends AbstractManager {
 

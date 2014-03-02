@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\Route;
+namespace Fk\Route;
 
-use FkFramework\Uri\Uri;
+use Fk\Uri\Uri;
 
 class Route {
 

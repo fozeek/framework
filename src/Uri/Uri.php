@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Uri;
+namespace Fk\Uri;
 
 class Uri {
 

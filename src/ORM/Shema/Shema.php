@@ -1,8 +1,8 @@
 <?php
 
-namespace FkFramework\ORM\Shema;
+namespace Fk\ORM\Shema;
 
-use FkFramework\Util\Storage;
+use Fk\Util\Storage;
 
 class Shema {
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace FkFramework\Module;
+namespace Fk\Module;
 
-use FkFramework\Manager\AbstractManager;
-use FkFramework\Mvc\Application;
-use FkFramework\Config\Config;
-use FkFramework\Route\Router;
+use Fk\Manager\AbstractManager;
+use Fk\Mvc\Application;
+use Fk\Config\Config;
+use Fk\Route\Router;
 
 class ModuleManager extends AbstractManager {
 

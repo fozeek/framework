@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Autoload;
+namespace Fk\Autoload;
 
 class AutoLoadManager {
 

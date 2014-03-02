@@ -1,29 +1,29 @@
 <?php
 
-namespace FkFramework\Mvc;
+namespace Fk\Mvc;
 
-use FkFramework\Event\EventManager;
-use FkFramework\Module\ModuleManager;
-use FkFramework\AutoLoad\AutoloadManager;
-use FkFramework\Cache\Cache;
-use FkFramework\Uri\Uri;
-use FkFramework\Route\Router;
-use FkFramework\Http\Request;
-use FkFramework\Config\Config;
+use Fk\Event\EventManager;
+use Fk\Module\ModuleManager;
+use Fk\AutoLoad\AutoloadManager;
+use Fk\Cache\Cache;
+use Fk\Uri\Uri;
+use Fk\Route\Router;
+use Fk\Http\Request;
+use Fk\Config\Config;
 
 class Application {
 
     private static $application;
     
     // Resources
-    protected $request;                  // FkFramework\Http\Request;
-    protected $cache;                    // FkFramework\Cache\Cache
-    protected $controller;               // FkFramework\Mvc\AbstractController
+    protected $request;                  // Fk\Http\Request;
+    protected $cache;                    // Fk\Cache\Cache
+    protected $controller;               // Fk\Mvc\AbstractController
 
     // Managers
-    protected $eventManager;             // FkFramework\Event\EventManager
-    protected $moduleManager;            // FkFramework\Module\ModuleManager
-    protected $autoLoadManager;          // FkFramework\Autoload\AutoloadManager
+    protected $eventManager;             // Fk\Event\EventManager
+    protected $moduleManager;            // Fk\Module\ModuleManager
+    protected $autoLoadManager;          // Fk\Autoload\AutoloadManager
 
     static public function run($uri = null) {
         $application = new Application();

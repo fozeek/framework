@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Mvc\Component;
+namespace Fk\Mvc\Component;
 
 abstract class AbstractComponent {
 	

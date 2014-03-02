@@ -1,6 +1,6 @@
 <?php
 
-namespace FkFramework\Event;
+namespace Fk\Event;
 
 class EventManager {
 

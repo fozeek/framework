@@ -1,9 +1,9 @@
 <?php
 
-namespace FkFramework\Mvc\Component;
+namespace Fk\Mvc\Component;
 
-use FkFramework\Manager\AbstractManager;
-use FkFramework\Config\Config;
+use Fk\Manager\AbstractManager;
+use Fk\Config\Config;
 
 class ComponentManager extends AbstractManager {
 

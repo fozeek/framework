@@ -1,9 +1,9 @@
 <?php
 
-namespace FkFramework\Http;
+namespace Fk\Http;
 
-use FkFramework\Uri\Uri;
-use FkFramework\Route\Router;
+use Fk\Uri\Uri;
+use Fk\Route\Router;
 
 Class Request {
 

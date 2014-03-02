@@ -1,18 +1,18 @@
 <?php
 
-namespace FkFramework\ORM;
+namespace Fk\ORM;
 
-use FkFramework\ORM\Shema\Shema;
-use FkFramework\ORM\TableManager;
-use FkFramework\ORM\Shema\Type\TypeManager;
-use FkFramework\DB\QueryBuilder;
+use Fk\ORM\Shema\Shema;
+use Fk\ORM\TableManager;
+use Fk\ORM\Shema\Type\TypeManager;
+use Fk\DB\QueryBuilder;
 
 class Entity {
 
 	protected $_name;			// string										Nom de l'entité
 	protected $_attributs;		// array										Attributs de l'entité
-	protected $_shema;			// FkFramework\ORM\Shema\Shema					Shéma de l'entité
-	protected $_tableManager;	// FkFramework\ORM\TableManager					TableManager de l'application
+	protected $_shema;			// Fk\ORM\Shema\Shema					Shéma de l'entité
+	protected $_tableManager;	// Fk\ORM\TableManager					TableManager de l'application
 
 	public function __construct($name, TableManager $tableManager, array $attributs = array()) {
 		$this->_tableManager = $tableManager;
