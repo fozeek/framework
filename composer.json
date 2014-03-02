@@ -1,0 +1,23 @@
+{
+    "name": "fozeek/framework",
+    "description": "The Fozeek Framework.",
+    "keywords": ["framework", "fozeek", "fk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quentin Deneuve",
+            "email": "quentin.deneuve@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "fk": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
